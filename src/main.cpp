@@ -112,7 +112,7 @@ StackchanSystemConfig system_config;          // (Stackchan_system_config.h) プ
      * [GPIO Number]
      * GO Bottom (BASIC系 GO,Fire)   15
      * GO Bottom2 (CORE2系 AWS)      25
-     * GO Bottom3 (CoreS3系 別売のみ   5
+     * GO Bottom3 (CoreS3系 別売のみ)  5
      */
     #if defined(ARDUINO_M5STACK_FIRE) || defined(ARDUINO_M5Stack_Core_ESP32)
       #define LEDS_PIN_GOBTM 15
